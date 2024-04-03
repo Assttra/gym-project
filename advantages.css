@@ -1,0 +1,89 @@
+.title-advantages {
+    font-family: var(--main-font);
+    color: var(--gl-color);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 76px;
+    text-align: center;
+    margin-top: 57px;
+}
+
+.text-advantages {
+    font-family: var(--main-font);
+    color: var(--gl-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.advantages-container {
+    display: flex;
+    margin-top: 77px;
+    justify-content: center;
+
+}
+
+.first-advantage {
+    width: 420px;
+    height: 536px;
+    border-radius: 30px;
+    background: var(--linear-gradient);
+}
+
+.ellipse {
+    width: 141px;
+    height: 141px;
+    background: var(--text-color);
+    border-radius: 50%;
+    margin: 74px 0 0 140px;
+}
+
+.icon {
+   padding: 37px 0 0 40px;
+}
+
+.advantage-h {
+    font-family: var(--main-font);
+    color: var(--gl-color);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 44px;
+    padding-top: 53px;
+    text-align: center;
+}
+
+.advantage-p {
+    font-family: var(--main-font);
+    color: var(--gl-color);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    padding-top: 69px;
+    text-align: center;
+}
+
+.second-advantage {
+    width: 420px;
+    height: 689px;
+    border-radius: 30px;
+    background: var(--linear-gradient);
+    margin-left: 20px;
+}
+
+.third-advantage {
+    width: 420px;
+    height: 536px;
+    border-radius: 30px;
+    background: var(--linear-gradient);
+    margin-left: 20px;
+}
+
+.bottom {
+    margin-top: -30px;
+}
+
+.button {
+   margin-left: 556px;
+}
