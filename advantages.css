@@ -22,7 +22,6 @@
     display: flex;
     margin-top: 77px;
     justify-content: center;
-
 }
 
 .first-advantage {
@@ -86,4 +85,24 @@
 
 .button {
    margin-left: 556px;
+}
+
+@media(max-width: 768px) {
+
+    .advantages-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-advantage {
+        margin: 20px 2px 0 0;
+    }
+
+    .third-advantage {
+        margin: 20px 2px 0 0;
+    }
+
+    .button {
+        margin-left: 150px;
+    }
 }
