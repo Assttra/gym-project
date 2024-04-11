@@ -1,4 +1,4 @@
-.footer-container {
+.footer-background {
     width: 100%;
     height: 288px;
     background: var(--ct-color);
@@ -6,69 +6,74 @@
 }
 
 .footer-img {
-  padding: 86px 0 0 70px;
+    padding: 86px 0 0 70px;
+    cursor: pointer;
 }
 
-.img-container {
+.social-media {
     display: flex;
-    margin: -90px 0 0 620px;
-}
-
-.facebook {
-cursor: pointer;
+    justify-content: center;
+    margin-top: -90px;
 }
 
 .instagram {
     margin-left: 50px;
-    cursor: pointer;
 }
 
-.work-shedule-footer {
+.footer-block {
+    display: flex;
+    flex-direction: column;
     float: right;
-    margin-top: -50px;
+    margin: -90px 70px 0 0;
 }
 
-.title-contact-footer {
-    float: right;
-    margin: -35px 70px 0 0;
+.footer-shedule {
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    p{
+        padding-top: 13px;
+    }
 }
+
+.footer-contact {
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--text-color);
+    margin: 30px 0 0 -35px;
+}
+
+
 
 @media (max-width: 768px) {
-    .footer-container {
-        margin-top: 700px;
-       height: 500px;
 
+    .footer-background {
+        height: 500px;
+        width: 100%;
+        margin: 0;
     }
 
     .footer-img {
-     margin: 0 0 -30px 100px;
-
+        margin: 20px auto;
+        display: block;
+        padding: 0;
     }
-    .img-container {
+
+    .social-media {
+     margin: 20px auto;
+    }
+
+    .footer-block {
+      margin: 20px auto;
+    }
+
+    .footer-container {
+        display: flex;
         flex-direction: column;
-
-
     }
-
-    .facebook {
-        margin: 140px 0 0 -380px;
-    }
-
-    .instagram {
-        margin: -70px 0 0  -290px;
-    }
-
-    .work-shedule-footer {
-        position: absolute;
-        margin: 10px 0 0 220px ;
-        white-space: nowrap;
-    }
-
-    .title-contact-footer {
-     margin: 100px 0 0 130px ;
-        position: absolute;
-        white-space: nowrap;
-
-    }
-
 }

@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
 }
+
 .container-child {
     background: var(--ct-color);
     width: 100%;
@@ -19,12 +20,20 @@
     clip-path: polygon(55% 8%, 100% 8%, 100% 100%, 0 100%, 0 21%);
 }
 
+.container-description {
+    display: flex;
+    margin: 300px 0 0 100px;
+    flex-direction: column;
+}
 .about-kolizey {
+    display: flex;
+}
+
+.kolizey {
     background: var(--bt-color);
     width: 232px;
     height: 65px;
-    margin: 330px 0 0 190px;
-
+    margin-left: 20px;
           p{
               font-family: var(--font);
               font-weight: 700;
@@ -42,7 +51,6 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 48px;
-    margin: -59px 0 0 80px;
 }
 
 .description {
@@ -51,7 +59,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    margin: 130px 0 0 80px;
+    margin-top: 130px;
 }
 
 .fighter {
@@ -60,22 +68,18 @@
 }
 
 @media (max-width: 768px) {
-    .container-child {
-        flex-direction: column;
-    }
 
     .fighter {
-        margin: -380px 0 0 0;
+        display: none;
     }
 
-    .about {
-        position: absolute;
-
+    .container-description {
+        text-align: center;
+        margin: 300px auto;
     }
 
-    .description {
-        font-size: 15px;
-        margin-top: 30px;
+    .about-kolizey {
+        margin: auto;
     }
 }
 
